@@ -2,7 +2,7 @@ function Resume () {
     return (
     <section className="my-5">
         <div>
-        <div><a href="/pdfs/Daniel-Gomez-Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></div>    
+        <div><a href="/pdfs/Daniel-Gomez-Resume.pdf" target="_blank" rel="noopener noreferrer">Download my resume</a></div>    
         <h2>Work Experience</h2>
         <div><strong>Full-stack Bootcamp</strong>, University of Connecticut</div> 
         <div>Jan 2024 - July 2024</div>
