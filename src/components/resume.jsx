@@ -1,9 +1,8 @@
-function Error () {
+function Resume () {
     return (
         <section className="my-5">
-            Error
         </section>
     );
 }
 
-export default Error
+export default Resume
