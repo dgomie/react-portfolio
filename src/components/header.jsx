@@ -1,7 +1,7 @@
 function Header () {
     return (
         <section className="my-5">
-            Header
+            Nav links to site components
         </section>
     );
 }
