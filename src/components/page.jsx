@@ -5,8 +5,7 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 import { Outlet } from 'react-router-dom';
 
 function Page({ currentPage }) {
-  console.log("Current page", currentPage)
-  currentPage = currentPage.substring(1) || "Daniel Gomez";
+  currentPage = currentPage.substring(1);
   
 
   useEffect(() => {
