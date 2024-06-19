@@ -1,7 +1,7 @@
 function Footer () {
     return (
         <section className="my-5">
-            Footer
+            icons that link to external sites, linkedIn, github, email
         </section>
     );
 }

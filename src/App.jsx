@@ -1,6 +1,6 @@
 import Header from "./components/header";
 import Nav from "./components/nav";
-// import Footer from "./components/footer";
+import Footer from "./components/footer";
 import Page from "./components/page";
 import { useLocation } from "react-router-dom";
 
@@ -15,7 +15,7 @@ function App() {
     <main>
       <Page currentPage={currentPage} />
     </main>
-    {/* <Footer /> */}
+    <Footer />
   </div>
 );
 }

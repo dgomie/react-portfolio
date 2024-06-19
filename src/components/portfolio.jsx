@@ -1,7 +1,7 @@
 function Portfolio () {
     return (
         <section className="my-5">
-            Portfolio
+           list of github projects/deployed sites
         </section>
     );
 }
