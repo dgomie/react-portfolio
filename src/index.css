@@ -90,3 +90,13 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  margin: 10px;
+}
