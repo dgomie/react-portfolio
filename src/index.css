@@ -3,8 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(17, 15, 15, 0.87);
+  color-scheme: #817E9F;
+  color: #2d2c38;
+  background-color: #7FC29B;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,12 +35,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  color: #65524D;
+  background-color: #B5EF8A;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #075b5d;
 }
 button:focus,
 button:focus-visible {
@@ -57,4 +59,34 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #817E9F;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label, input, textarea {
+  display: block;
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+textarea {
+  min-width: 30%;
+  min-height: 200px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
