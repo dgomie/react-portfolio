@@ -1,15 +1,6 @@
 function Resume() {
   return (
     <section className="my-5">
-      <div>
-        <a
-          href="/pdfs/Daniel-Gomez-Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Download my resume
-        </a>
-      </div>
       <section className="px-20 mt-10">
         <h4 className="mb-8 text-3xl font-bold text-center md:text-left">
           Experience
@@ -89,6 +80,18 @@ function Resume() {
           <div className="flex flex-col col-span-4 "></div>
         </div>
       </section>
+      <div className="flex justify-center">
+      <button>
+        <a
+          href="/pdfs/Daniel-Gomez-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <i className="fa-solid fa-file-arrow-down mr-2"></i>
+          Download my resume
+        </a>
+      </button>
+      </div>
     </section>
   );
 }
