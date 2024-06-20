@@ -1,7 +1,7 @@
 function Contact () {
     return (
         <section className="my-5 formContainer">
-            <form>
+            <form className="bg-white">
                 <label htmlFor="name">Name:</label>
                 <input type="text" id="name" placeholder="Ned Flanders" />
                 <label htmlFor="email">Email:</label>
