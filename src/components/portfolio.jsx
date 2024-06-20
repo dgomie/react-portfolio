@@ -2,27 +2,39 @@ function Portfolio() {
   return (
     <section className="my-5 p-3 flex justify-center flex-wrap gap-4">
       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
-        <a href="https://hidden-depths-01820-f84c3739770d.herokuapp.com/">
-          <img className="rounded-t-lg" src="/images/music.jpg" alt="" />
+        <a
+          href="https://hidden-depths-01820-f84c3739770d.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="rounded-t-lg" src="/images/music.jpg" alt="" loading="lazy"/>
         </a>
         <div className="p-5">
-          <a href="https://hidden-depths-01820-f84c3739770d.herokuapp.com/">
+          <a
+            href="https://hidden-depths-01820-f84c3739770d.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               GoodPicks
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          A social media site designed to help users manage their favorite songs, albums, and artists by providing a user-friendly interface to organize and retrieve music-related data.
+            A social media site designed to help users manage their favorite
+            songs, albums, and artists by providing a user-friendly interface to
+            organize and retrieve music-related data.
           </p>
           <p>
-          <i className="fa-brands fa-html5 mr-2"></i>
-          <i className="fa-brands fa-css3-alt mr-2"></i>
-          <i className="fa-brands fa-square-js mr-2"></i>
-          <i className="fa-brands fa-node-js mr-2"></i>
-          <i className="fa-solid fa-database"></i>
+            <i className="fa-brands fa-html5 mr-2"></i>
+            <i className="fa-brands fa-css3-alt mr-2"></i>
+            <i className="fa-brands fa-square-js mr-2"></i>
+            <i className="fa-brands fa-node-js mr-2"></i>
+            <i className="fa-solid fa-database"></i>
           </p>
           <a
             href="https://hidden-depths-01820-f84c3739770d.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Visit Site
@@ -30,6 +42,8 @@ function Portfolio() {
 
           <a
             href="https://github.com/dgomie/good-picks"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             <span className="fab fa-github mr-1"></span>
@@ -39,25 +53,37 @@ function Portfolio() {
       </div>
 
       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
-        <a href="https://spencerklink.github.io/Pantry-Raid/">
-          <img className="rounded-t-lg" src="/images/grocery.jpg" alt="" />
+        <a
+          href="https://spencerklink.github.io/Pantry-Raid/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="rounded-t-lg" src="/images/grocery.jpg" alt="" loading="lazy"/>
         </a>
         <div className="p-5">
-          <a href="https://spencerklink.github.io/Pantry-Raid/">
+          <a
+            href="https://spencerklink.github.io/Pantry-Raid/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Pantry Raid
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          A mobile-first web application designed to help users find recipes based on ingredients they have at hand and view detailed nutritional information for each recipe.
+            A mobile-first web application designed to help users find recipes
+            based on ingredients they have at hand and view detailed nutritional
+            information for each recipe.
           </p>
           <p>
-          <i className="fa-brands fa-html5 mr-2"></i>
-          <i className="fa-brands fa-css3-alt mr-2"></i>
-          <i className="fa-brands fa-square-js mr-2"></i>
+            <i className="fa-brands fa-html5 mr-2"></i>
+            <i className="fa-brands fa-css3-alt mr-2"></i>
+            <i className="fa-brands fa-square-js mr-2"></i>
           </p>
           <a
             href="https://spencerklink.github.io/Pantry-Raid/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Visit Site
@@ -65,6 +91,8 @@ function Portfolio() {
 
           <a
             href="https://github.com/SpencerKlink/Pantry-Raid"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             <span className="fab fa-github mr-1"></span>
@@ -74,27 +102,38 @@ function Portfolio() {
       </div>
 
       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
-        <a href="https://still-wildwood-68456-d44a68e622ba.herokuapp.com/">
-          <img className="rounded-t-lg" src="/images/blog.jpg" alt="" />
+        <a
+          href="https://still-wildwood-68456-d44a68e622ba.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="rounded-t-lg" src="/images/blog.jpg" alt="" loading="lazy" />
         </a>
         <div className="p-5">
-          <a href="https://still-wildwood-68456-d44a68e622ba.herokuapp.com/">
+          <a
+            href="https://still-wildwood-68456-d44a68e622ba.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Tech Blog
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          A blog site that offers a seamless experience for users to browse existing blog posts, sign up, log in, and manage their own content. 
+            A blog site that offers a seamless experience for users to browse
+            existing blog posts, sign up, log in, and manage their own content.
           </p>
           <p>
-          <i className="fa-brands fa-html5 mr-2"></i>
-          <i className="fa-brands fa-css3-alt mr-2"></i>
-          <i className="fa-brands fa-square-js mr-2"></i>
-          <i className="fa-brands fa-node-js mr-2"></i>
-          <i className="fa-solid fa-database"></i>
+            <i className="fa-brands fa-html5 mr-2"></i>
+            <i className="fa-brands fa-css3-alt mr-2"></i>
+            <i className="fa-brands fa-square-js mr-2"></i>
+            <i className="fa-brands fa-node-js mr-2"></i>
+            <i className="fa-solid fa-database"></i>
           </p>
           <a
             href="https://still-wildwood-68456-d44a68e622ba.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Visit Site
@@ -102,6 +141,8 @@ function Portfolio() {
 
           <a
             href="https://github.com/dgomie/tech-blog"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             <span className="fab fa-github mr-1"></span>
@@ -111,25 +152,38 @@ function Portfolio() {
       </div>
 
       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
-        <a href="https://dgomie.github.io/weather-dashboard/">
-          <img className="rounded-t-lg" src="/images/weather.jpg" alt="" />
+        <a
+          href="https://dgomie.github.io/weather-dashboard/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="rounded-t-lg" src="/images/weather.jpg" alt="" loading="lazy"/>
         </a>
         <div className="p-5">
-          <a href="https://dgomie.github.io/weather-dashboard/">
+          <a
+            href="https://dgomie.github.io/weather-dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Weather Dashboard
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            A web application that allows users to search for the current weather conditions of any city by providing real-time and 5-day weather forecasts including temperature, weather description, humidity for the chosen city.
+            A web application that allows users to search for the current
+            weather conditions of any city by providing real-time and 5-day
+            weather forecasts including temperature, weather description,
+            humidity for the chosen city.
           </p>
           <p>
-          <i className="fa-brands fa-html5 mr-2"></i>
-          <i className="fa-brands fa-css3-alt mr-2"></i>
-          <i className="fa-brands fa-square-js mr-2"></i>
+            <i className="fa-brands fa-html5 mr-2"></i>
+            <i className="fa-brands fa-css3-alt mr-2"></i>
+            <i className="fa-brands fa-square-js mr-2"></i>
           </p>
           <a
             href="https://dgomie.github.io/weather-dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Visit Site
@@ -137,6 +191,8 @@ function Portfolio() {
 
           <a
             href="https://github.com/dgomie/weather-dashboard"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             <span className="fab fa-github mr-1"></span>
@@ -146,27 +202,38 @@ function Portfolio() {
       </div>
 
       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
-        <a href="https://dgomie.github.io/work-day-calendar/">
-          <img className="rounded-t-lg" src="/images/planner.jpg" alt="" />
+        <a
+          href="https://dgomie.github.io/work-day-calendar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="rounded-t-lg" src="/images/planner.jpg" alt="" loading="lazy"/>
         </a>
         <div className="p-5">
-          <a href="https://dgomie.github.io/work-day-calendar/">
+          <a
+            href="https://dgomie.github.io/work-day-calendar/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Workday Scheduler
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            A web application that displays an hourly look at a typical 9a-5p workday planner where users can add and edit their schedule. The app provides a visually easy way to determine the current hour in addition to past and future hours.
-
-
+            A web application that displays an hourly look at a typical 9a-5p
+            workday planner where users can add and edit their schedule. The app
+            provides a visually easy way to determine the current hour in
+            addition to past and future hours.
           </p>
           <p>
-          <i className="fa-brands fa-html5 mr-2"></i>
-          <i className="fa-brands fa-css3-alt mr-2"></i>
-          <i className="fa-brands fa-square-js mr-2"></i>
+            <i className="fa-brands fa-html5 mr-2"></i>
+            <i className="fa-brands fa-css3-alt mr-2"></i>
+            <i className="fa-brands fa-square-js mr-2"></i>
           </p>
           <a
             href="https://dgomie.github.io/work-day-calendar/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Visit Site
@@ -174,6 +241,8 @@ function Portfolio() {
 
           <a
             href="https://github.com/dgomie/work-day-calendar"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             <span className="fab fa-github mr-1"></span>
@@ -183,25 +252,39 @@ function Portfolio() {
       </div>
 
       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
-        <a href="https://dgomie.github.io/password-generator/">
-          <img className="rounded-t-lg" src="/images/password.jpg" alt="" />
+        <a
+          href="https://dgomie.github.io/password-generator/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="rounded-t-lg" src="/images/password.jpg" alt="" loading="lazy"/>
         </a>
         <div className="p-5">
-          <a href="https://dgomie.github.io/password-generator/">
+          <a
+            href="https://dgomie.github.io/password-generator/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Password Generator
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          A password generator that creates strong passwords using alphanumeric and special characters. Since different sites have varying requirements for password complexity, this generator gives the user the ability to choose the length and types of characters needed.
+            A password generator that creates strong passwords using
+            alphanumeric and special characters. Since different sites have
+            varying requirements for password complexity, this generator gives
+            the user the ability to choose the length and types of characters
+            needed.
           </p>
           <p>
-          <i className="fa-brands fa-html5 mr-2"></i>
-          <i className="fa-brands fa-css3-alt mr-2"></i>
-          <i className="fa-brands fa-square-js mr-2"></i>
+            <i className="fa-brands fa-html5 mr-2"></i>
+            <i className="fa-brands fa-css3-alt mr-2"></i>
+            <i className="fa-brands fa-square-js mr-2"></i>
           </p>
           <a
             href="https://dgomie.github.io/password-generator/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Visit Site
@@ -209,6 +292,8 @@ function Portfolio() {
 
           <a
             href="https://github.com/dgomie/password-generator"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             <span className="fab fa-github mr-1"></span>
@@ -218,25 +303,37 @@ function Portfolio() {
       </div>
 
       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
-        <a href="https://dgomie.github.io/coding-quiz/">
-          <img className="rounded-t-lg" src="/images/quiz.jpg" alt="" />
+        <a
+          href="https://dgomie.github.io/coding-quiz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="rounded-t-lg" src="/images/quiz.jpg" alt="" loading="lazy"/>
         </a>
         <div className="p-5">
-          <a href="https://dgomie.github.io/coding-quiz/">
+          <a
+            href="https://dgomie.github.io/coding-quiz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Coding Quiz
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          A multiple choice coding quiz that features a countdown timer that speeds up on wrong answers. Users are able to save their scores and view a high score list that is local to that computer. 
+            A multiple choice coding quiz that features a countdown timer that
+            speeds up on wrong answers. Users are able to save their scores and
+            view a high score list that is local to that computer.
           </p>
           <p>
-          <i className="fa-brands fa-html5 mr-2"></i>
-          <i className="fa-brands fa-css3-alt mr-2"></i>
-          <i className="fa-brands fa-square-js mr-2"></i>
+            <i className="fa-brands fa-html5 mr-2"></i>
+            <i className="fa-brands fa-css3-alt mr-2"></i>
+            <i className="fa-brands fa-square-js mr-2"></i>
           </p>
           <a
             href="https://dgomie.github.io/coding-quiz/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Visit Site
@@ -244,6 +341,8 @@ function Portfolio() {
 
           <a
             href="https://github.com/dgomie/coding-quiz"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             <span className="fab fa-github mr-1"></span>
@@ -251,9 +350,6 @@ function Portfolio() {
           </a>
         </div>
       </div>
-
-
-
     </section>
   );
 }

@@ -1,6 +1,15 @@
 function Resume() {
   return (
     <section className="my-5">
+      <div>
+        <a
+          href="/pdfs/Daniel-Gomez-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download my resume
+        </a>
+      </div>
       <section className="px-20 mt-10">
         <h4 className="mb-8 text-3xl font-bold text-center md:text-left">
           Experience
@@ -52,13 +61,13 @@ function Resume() {
           </div>
           <div className="flex flex-col col-span-4">
             <p>
-              Elevated Jesuit High School{'\''}s mission via comprehensive social
+              Elevated Jesuit High School{"'"}s mission via comprehensive social
               media management, website updates, and contributions to the school
               magazine. Captured and edited compelling photos and videos for
               publication, documenting school events and activities. Established
               relationships with media outlets and external stakeholders to
-              bolster Jesuit{'\''}s visibility and monitored media and social media
-              landscapes.
+              bolster Jesuit{"'"}s visibility and monitored media and social
+              media landscapes.
             </p>
           </div>
         </div>
@@ -77,11 +86,9 @@ function Resume() {
             <h6 className="text-lg font-bold">University of South Florida</h6>
             <p>Aug 2013 - May 2015</p>
           </div>
-          <div className="flex flex-col col-span-4 ">
-          </div>
+          <div className="flex flex-col col-span-4 "></div>
         </div>
       </section>
-      
     </section>
   );
 }
