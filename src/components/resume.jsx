@@ -81,16 +81,16 @@ function Resume() {
         </div>
       </section>
       <div className="flex justify-center">
-      <button>
-        <a
-          href="/pdfs/Daniel-Gomez-Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <i className="fa-solid fa-file-arrow-down mr-2"></i>
-          Download my resume
-        </a>
-      </button>
+        <button>
+          <a
+            href="/pdfs/Daniel-Gomez-Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-solid fa-file-arrow-down mr-2"></i>
+            Download my resume
+          </a>
+        </button>
       </div>
     </section>
   );

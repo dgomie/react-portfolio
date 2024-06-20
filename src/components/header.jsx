@@ -1,9 +1,8 @@
 function Header(props) {
 
   return (
-    <header className="">
+    <header className="mt-2">
       <h1>Daniel Gomez</h1>
-      <img src="" alt="wooden background"></img>
       {props.children}
     </header>
   );
