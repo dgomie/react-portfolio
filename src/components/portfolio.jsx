@@ -1,7 +1,7 @@
 function Portfolio() {
   return (
-    <section className="my-5 p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <section className="my-5 p-3 flex justify-center flex-wrap gap-4">
+      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a href="https://hidden-depths-01820-f84c3739770d.herokuapp.com/">
           <img className="rounded-t-lg" src="/images/music.jpg" alt="" />
         </a>
@@ -38,7 +38,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a href="https://spencerklink.github.io/Pantry-Raid/">
           <img className="rounded-t-lg" src="/images/grocery.jpg" alt="" />
         </a>
@@ -73,7 +73,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a href="https://still-wildwood-68456-d44a68e622ba.herokuapp.com/">
           <img className="rounded-t-lg" src="/images/blog.jpg" alt="" />
         </a>
@@ -110,7 +110,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a href="https://dgomie.github.io/weather-dashboard/">
           <img className="rounded-t-lg" src="/images/weather.jpg" alt="" />
         </a>
@@ -145,7 +145,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a href="https://dgomie.github.io/work-day-calendar/">
           <img className="rounded-t-lg" src="/images/planner.jpg" alt="" />
         </a>
@@ -182,7 +182,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a href="https://dgomie.github.io/password-generator/">
           <img className="rounded-t-lg" src="/images/password.jpg" alt="" />
         </a>
@@ -217,7 +217,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a href="https://dgomie.github.io/coding-quiz/">
           <img className="rounded-t-lg" src="/images/quiz.jpg" alt="" />
         </a>
