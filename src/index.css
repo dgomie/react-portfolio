@@ -2,10 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 20px;
 
-  color-scheme: #817E9F;
+  color-scheme: #817e9f;
   color: #2d2c38;
-  background-color: #7FC29B;
+  background-color: #7fc29b;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,8 +36,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  color: #65524D;
-  background-color: #B5EF8A;
+  color: #65524d;
+  background-color: #b5ef8a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -69,12 +70,14 @@ form {
   width: 75%;
   padding: 12px 20px;
   margin: 8px 0;
-  border: 1px solid #817E9F;
+  border: 1px solid #817e9f;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
-label, input, textarea {
+label,
+input,
+textarea {
   display: block;
   width: 75%;
   margin-bottom: 10px;
@@ -95,8 +98,81 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 footer a {
   margin: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #075b5d;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardBody {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  flex: 0 1 calc(50% - 20px);
+  margin: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardBody img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardBody a:first-child {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.cardBody a:last-child {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.cardBody:hover a {
+  display: block;
 }

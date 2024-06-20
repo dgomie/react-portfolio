@@ -6,7 +6,7 @@ function Nav({ currentPage }) {
 
   return (
     <nav>
-      <ul className="flex-row">
+      <ul className="">
         <li
           className={`mx-5 ${currentPage === '/' && 'navActive'}`}
           key="about"
