@@ -1,7 +1,7 @@
 function Contact () {
     return (
         <section className="my-5 formContainer">
-            <form className="bg-white" action="https://formsubmit.co/4725e9540d3eeede68595f4a2189170d" method="post">
+            <form className="bg-white" name="contact" method="POST" data-netlify="true">
                 <label htmlFor="name">Name:</label>
                 <input type="text" id="name" placeholder="Ned Flanders" />
                 <label htmlFor="email">Email:</label>
