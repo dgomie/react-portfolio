@@ -1,7 +1,7 @@
 function Resume() {
   return (
     <div >
-      <div className="container mx-auto py-8">
+      <div className="container mx-auto py-8 text-gray-900">
         <div className="grid grid-cols-4 lg:grid-cols-12 gap-6 px-4">
           <div className="col-span-9 lg:col-span-3">
             <div className="bg-white shadow rounded-lg p-6 mb-3">

@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section className="my-5 formContainer">
+    <section className="my-5 formContainer text-gray-900">
       <form
         className="bg-white"
         action="https://formsubmit.co/4725e9540d3eeede68595f4a2189170d"
