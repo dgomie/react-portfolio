@@ -2,9 +2,9 @@ function Resume() {
   return (
     <div >
       <div className="container mx-auto py-8">
-        <div className="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4">
-          <div className="col-span-4 sm:col-span-3">
-            <div className="bg-white shadow rounded-lg p-6 my-2">
+        <div className="grid grid-cols-4 lg:grid-cols-12 gap-6 px-4">
+          <div className="col-span-9 lg:col-span-3">
+            <div className="bg-white shadow rounded-lg p-6 mb-3">
               <div className="flex flex-col">
                 <button className="hover:opacity-70 duration-500">
                   <a
@@ -34,7 +34,7 @@ function Resume() {
               </div>
             </div>
           </div>
-          <div className="col-span-4 sm:col-span-9">
+          <div className="col-span-9 sm:col-span-9">
             <div className="bg-white shadow rounded-lg p-6">
               <h2 className="text-xl font-bold mt-6 mb-4">Experience</h2>
               <div className="mb-6">
