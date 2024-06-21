@@ -4,7 +4,7 @@ function Contact() {
       <form
         className="bg-white"
         action="https://formsubmit.co/4725e9540d3eeede68595f4a2189170d"
-        method="post"
+        method="POST"
       >
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Ned Flanders" />
