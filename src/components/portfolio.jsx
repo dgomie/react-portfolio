@@ -15,11 +15,11 @@ function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
               GoodPicks
             </h5>
           </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700">
             A social media site designed to help users manage their favorite
             songs, albums, and artists by providing a user-friendly interface to
             organize and retrieve music-related data.
@@ -35,7 +35,7 @@ function Portfolio() {
             href="https://hidden-depths-01820-f84c3739770d.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             Visit Site
           </a>
@@ -44,7 +44,7 @@ function Portfolio() {
             href="https://github.com/dgomie/good-picks"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             <span className="fab fa-github mr-1"></span>
             Github Repo
@@ -66,11 +66,11 @@ function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
               Pantry Raid
             </h5>
           </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700">
             A mobile-first web application designed to help users find recipes
             based on ingredients they have at hand and view detailed nutritional
             information for each recipe.
@@ -84,7 +84,7 @@ function Portfolio() {
             href="https://spencerklink.github.io/Pantry-Raid/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             Visit Site
           </a>
@@ -93,7 +93,7 @@ function Portfolio() {
             href="https://github.com/SpencerKlink/Pantry-Raid"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             <span className="fab fa-github mr-1"></span>
             Github Repo
@@ -115,11 +115,11 @@ function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
               Tech Blog
             </h5>
           </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700">
             A blog site that offers a seamless experience for users to browse
             existing blog posts, sign up, log in, and manage their own content.
           </p>
@@ -134,7 +134,7 @@ function Portfolio() {
             href="https://still-wildwood-68456-d44a68e622ba.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             Visit Site
           </a>
@@ -143,7 +143,7 @@ function Portfolio() {
             href="https://github.com/dgomie/tech-blog"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             <span className="fab fa-github mr-1"></span>
             Github Repo
@@ -165,11 +165,11 @@ function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
               Weather Dashboard
             </h5>
           </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700">
             A web application that allows users to search for the current
             weather conditions of any city by providing real-time and 5-day
             weather forecasts including temperature, weather description,
@@ -184,7 +184,7 @@ function Portfolio() {
             href="https://dgomie.github.io/weather-dashboard/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             Visit Site
           </a>
@@ -193,7 +193,7 @@ function Portfolio() {
             href="https://github.com/dgomie/weather-dashboard"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             <span className="fab fa-github mr-1"></span>
             Github Repo
@@ -215,11 +215,11 @@ function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
               Workday Scheduler
             </h5>
           </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700">
             A web application that displays an hourly look at a typical 9a-5p
             workday planner where users can add and edit their schedule. The app
             provides a visually easy way to determine the current hour in
@@ -234,7 +234,7 @@ function Portfolio() {
             href="https://dgomie.github.io/work-day-calendar/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             Visit Site
           </a>
@@ -243,7 +243,7 @@ function Portfolio() {
             href="https://github.com/dgomie/work-day-calendar"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             <span className="fab fa-github mr-1"></span>
             Github Repo
@@ -265,11 +265,11 @@ function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
               Password Generator
             </h5>
           </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700">
             A password generator that creates strong passwords using
             alphanumeric and special characters. Since different sites have
             varying requirements for password complexity, this generator gives
@@ -285,7 +285,7 @@ function Portfolio() {
             href="https://dgomie.github.io/password-generator/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             Visit Site
           </a>
@@ -294,7 +294,7 @@ function Portfolio() {
             href="https://github.com/dgomie/password-generator"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             <span className="fab fa-github mr-1"></span>
             Github Repo
@@ -316,11 +316,11 @@ function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
               Coding Quiz
             </h5>
           </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700">
             A multiple choice coding quiz that features a countdown timer that
             speeds up on wrong answers. Users are able to save their scores and
             view a high score list that is local to that computer.
@@ -334,7 +334,7 @@ function Portfolio() {
             href="https://dgomie.github.io/coding-quiz/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             Visit Site
           </a>
@@ -343,7 +343,7 @@ function Portfolio() {
             href="https://github.com/dgomie/coding-quiz"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             <span className="fab fa-github mr-1"></span>
             Github Repo

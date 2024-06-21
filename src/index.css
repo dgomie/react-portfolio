@@ -21,12 +21,6 @@ a {
   text-decoration: inherit;
 }
 
-nav a {
-  font-weight: 500;
-  color: #a4d4e9;
-  text-decoration: inherit;
-}
-
 nav a:hover {
   font-weight: 500;
   color: #68b2b0;

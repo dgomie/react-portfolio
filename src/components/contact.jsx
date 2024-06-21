@@ -21,7 +21,7 @@ function Contact() {
           name="message"
           placeholder="Enter your message"
         />
-        <button type="submit">Submit</button>
+        <button type="submit"><span className="text-white">Submit</span></button>
       </form>
     </section>
   );
