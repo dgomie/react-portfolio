@@ -21,8 +21,7 @@ function Contact() {
           name="message"
           placeholder="Enter your message"
         />
-        <input type="hidden" name="_captcha" value="false"></input>
-        <input type="text" name="_honey" style="display:none"></input>
+        <input type="hidden" name="_captcha" value="false" />
         <button type="submit">Submit</button>
       </form>
     </section>
