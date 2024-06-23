@@ -323,7 +323,7 @@ function Portfolio() {
           <p className="mb-3 font-normal text-gray-700">
             A multiple choice coding quiz that features a countdown timer that
             speeds up on wrong answers. Users are able to save their scores and
-            view a high score list that is local to that computer.
+            view a locally saved high score list.
           </p>
           <p>
             <i className="fa-brands fa-html5 mr-2"></i>
