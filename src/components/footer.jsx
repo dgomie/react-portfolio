@@ -13,6 +13,10 @@ function Footer() {
       {
         name: "fa-regular fa-envelope",
         link: "mailto:danny.f.gomez@gmail.com"
+      },
+      {
+        name: "fab fa-upwork",
+        link: "https://www.upwork.com/freelancers/~01fcec4454b85365b6?viewMode=1"
       }
     ]
   
