@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav({ currentPage }) {
-  const pages = ['portfolio', 'resume', 'contact'];
+  const pages = ['portfolio', 'resume'];
 
   return (
     <nav>

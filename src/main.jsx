@@ -4,7 +4,6 @@ import App from './App.jsx';
 import Error from './components/error-page';
 import About from './components/about';
 import Portfolio from './components/portfolio';
-import Contact from './components/contact';
 import Resume from './components/resume';
 import './index.css';
 
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
       {
         path: 'portfolio',
         element: <Portfolio />,
-      },
-      {
-        path: 'contact',
-        element: <Contact />,
       },
       {
         path: 'resume',
