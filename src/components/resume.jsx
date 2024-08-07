@@ -30,6 +30,7 @@ function Resume() {
                   <li className="mb-2">Node.js</li>
                   <li className="mb-2">HTML/CSS</li>
                   <li className="mb-2">Tailwind CSS</li>
+                  <li className="mb-2">Python</li>
                 </ul>
               </div>
             </div>
