@@ -7,7 +7,7 @@ function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="rounded-t-lg" src="/images/fitsyncpro.jpg" alt="" loading="lazy"/>
+          <img className="rounded-t-lg" src="/images/fitsyncpro.jpg" alt="" />
         </a>
         <div className="p-5">
           <a
@@ -58,7 +58,7 @@ function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="rounded-t-lg" src="/images/music.jpg" alt="" loading="lazy"/>
+          <img className="rounded-t-lg" src="/images/music.jpg" alt="" />
         </a>
         <div className="p-5">
           <a
@@ -109,7 +109,7 @@ function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="rounded-t-lg" src="/images/grocery.jpg" alt="" loading="lazy"/>
+          <img className="rounded-t-lg" src="/images/grocery.jpg" alt=""/>
         </a>
         <div className="p-5">
           <a
@@ -158,7 +158,7 @@ function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="rounded-t-lg" src="/images/blog.jpg" alt="" loading="lazy" />
+          <img className="rounded-t-lg" src="/images/blog.jpg" alt="" />
         </a>
         <div className="p-5">
           <a
@@ -208,7 +208,7 @@ function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="rounded-t-lg" src="/images/weather.jpg" alt="" loading="lazy"/>
+          <img className="rounded-t-lg" src="/images/weather.jpg" alt="" />
         </a>
         <div className="p-5">
           <a
@@ -258,7 +258,7 @@ function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="rounded-t-lg" src="/images/planner.jpg" alt="" loading="lazy"/>
+          <img className="rounded-t-lg" src="/images/planner.jpg" alt=""/>
         </a>
         <div className="p-5">
           <a
@@ -308,7 +308,7 @@ function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="rounded-t-lg" src="/images/password.jpg" alt="" loading="lazy"/>
+          <img className="rounded-t-lg" src="/images/password.jpg" alt="" />
         </a>
         <div className="p-5">
           <a
@@ -359,7 +359,7 @@ function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="rounded-t-lg" src="/images/quiz.jpg" alt="" loading="lazy"/>
+          <img className="rounded-t-lg" src="/images/quiz.jpg" alt="" />
         </a>
         <div className="p-5">
           <a
