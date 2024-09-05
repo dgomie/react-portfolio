@@ -1,6 +1,58 @@
 function Portfolio() {
   return (
+
     <section className="my-5 p-3 flex justify-center flex-wrap gap-4">
+       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
+        <a
+          href="https://clinical-checkpoints.onrender.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="rounded-t-lg" src="/images/pt.jpg" alt="" />
+        </a>
+        <div className="p-5">
+          <a
+            href="https://clinical-checkpoints.onrender.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+              Clinical Check Points
+            </h5>
+          </a>
+          <p className="mb-3 font-normal text-gray-700">
+          A web application designed to streamline the process of managing clinical checkpoints for physical therapy clinicians. Users can navigate through learning objects efficiently and notify admin users of successful task completion.
+          </p>
+          <p>
+            <i className="fa-brands fa-html5 mr-2"></i>
+            <i className="fa-brands fa-css3-alt mr-2"></i>
+            <i className="fa-brands fa-square-js mr-2"></i>
+            <i className="fa-brands fa-node-js mr-2"></i>
+            <i className="fa-brands fa-react mr-2"></i>
+            <i className="fa-solid fa-database"></i>
+          </p>
+          <a
+            href="https://fitsync-pro.onrender.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          >
+            Visit Site
+          </a>
+     
+
+          <a
+            href="https://github.com/dgomie/clinical-checkpoints"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          >
+            <span className="fab fa-github mr-1"></span>
+            Github Repo
+          </a>
+        </div>
+      </div>
+
        <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a
           href="https://fitsync-pro.onrender.com/"
