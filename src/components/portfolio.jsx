@@ -161,7 +161,7 @@ function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="rounded-t-lg" src="/images/password.webp" alt="" />
+          <img className="rounded-t-lg" src="/images/aichat.webp" alt="" />
         </a>
         <div className="p-5">
           <a
@@ -184,7 +184,7 @@ function Portfolio() {
             <i className="fa-brands fa-react mr-2"></i>
           </p>
           <a
-            href="https://github.com/dgomie/ai-chatbot"
+            href="https://ai-chatbot-nl47.onrender.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
@@ -193,7 +193,7 @@ function Portfolio() {
           </a>
 
           <a
-            href="https://github.com/dgomie/password-generator"
+            href="https://github.com/dgomie/ai-chatbot"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
