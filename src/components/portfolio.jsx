@@ -180,6 +180,8 @@ function Portfolio() {
             <i className="fa-brands fa-html5 mr-2"></i>
             <i className="fa-brands fa-css3-alt mr-2"></i>
             <i className="fa-brands fa-square-js mr-2"></i>
+            <i className="fa-brands fa-node-js mr-2"></i>
+            <i className="fa-brands fa-react mr-2"></i>
           </p>
           <a
             href="https://github.com/dgomie/ai-chatbot"
