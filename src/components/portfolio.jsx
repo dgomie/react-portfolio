@@ -157,6 +157,53 @@ function Portfolio() {
 
       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a
+          href="https://ai-chatbot-nl47.onrender.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="rounded-t-lg" src="/images/password.jpg" alt="" />
+        </a>
+        <div className="p-5">
+          <a
+            href="https://ai-chatbot-nl47.onrender.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+              AI Chatbot
+            </h5>
+          </a>
+          <p className="mb-3 font-normal text-gray-700">
+            A simple AI chatbot that utilizes Gemini AI API.
+          </p>
+          <p>
+            <i className="fa-brands fa-html5 mr-2"></i>
+            <i className="fa-brands fa-css3-alt mr-2"></i>
+            <i className="fa-brands fa-square-js mr-2"></i>
+          </p>
+          <a
+            href="https://github.com/dgomie/ai-chatbot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          >
+            Visit Site
+          </a>
+
+          <a
+            href="https://github.com/dgomie/password-generator"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          >
+            <span className="fab fa-github mr-1"></span>
+            Github Repo
+          </a>
+        </div>
+      </div>
+
+      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
+        <a
           href="https://spencerklink.github.io/Pantry-Raid/"
           target="_blank"
           rel="noopener noreferrer"
@@ -354,56 +401,6 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
-        <a
-          href="https://dgomie.github.io/password-generator/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img className="rounded-t-lg" src="/images/password.jpg" alt="" />
-        </a>
-        <div className="p-5">
-          <a
-            href="https://dgomie.github.io/password-generator/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-              Password Generator
-            </h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700">
-            A password generator that creates strong passwords using
-            alphanumeric and special characters. Since different sites have
-            varying requirements for password complexity, this generator gives
-            the user the ability to choose the length and types of characters
-            needed.
-          </p>
-          <p>
-            <i className="fa-brands fa-html5 mr-2"></i>
-            <i className="fa-brands fa-css3-alt mr-2"></i>
-            <i className="fa-brands fa-square-js mr-2"></i>
-          </p>
-          <a
-            href="https://dgomie.github.io/password-generator/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 m-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
-          >
-            Visit Site
-          </a>
-
-          <a
-            href="https://github.com/dgomie/password-generator"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
-          >
-            <span className="fab fa-github mr-1"></span>
-            Github Repo
-          </a>
-        </div>
-      </div>
 
       <div className="my-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:opacity-70 transition-opacity duration-500">
         <a
