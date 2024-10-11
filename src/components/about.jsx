@@ -29,7 +29,7 @@ function About() {
                 I am enthusiastic about transitioning my skills to software
                 development, where I can apply my creativity, attention to
                 detail, and problem-solving abilities to drive innovative
-                solutions
+                solutions.
               </p>
             </div>
           </div>
